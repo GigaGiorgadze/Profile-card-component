@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-bottom.svg'),url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position-x: -10vw,55vw;
+    background-position-y: -70vh,40vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.main{
+    margin: 20vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img{
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 25%;
+    float: right;
+}
+.content{
+    height: 50vh;
+    text-align: center;
+    background-color: white;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    box-sizing: border-box;
+    background-image: url('./images/bg-pattern-card.svg') ;
+    background-repeat: no-repeat;
+
+  border-radius: 1vw;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 100%;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    .content{
+        width: 70vw;
+        padding-top: 20%;
+        background-size: 45vh;
+    }
+    .content >*{
+        font-size: 13px;
+    }
+}
