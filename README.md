@@ -1,5 +1,7 @@
 # Frontend Mentor - Profile card component
 
+# you can view page live at following URL:https://gigagiorgadze.github.io/Profile-card-component/
+
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
